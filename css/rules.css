@@ -16,7 +16,7 @@ body{
 }
 
 /* ===================== MEDIA QUERY  400px - 800px  =================================      */
-@media (min-width>=400){
+@media (min-width=400){
 
 *{
     margin: 0;
@@ -41,7 +41,7 @@ body{
 
 /* ===================== MEDIA QUERY  801px - 1200px  =================================      */
 
-@media (min-width>=801){
+@media (min-width=801){
 
 *{
     margin: 0;
@@ -64,7 +64,7 @@ body{
 }
 
 /* ===================== MEDIA QUERY  1201px - 1600px  =================================      */
-@media (min-width>=1201){
+@media (min-width=1201){
 
 *{
     margin: 0;
@@ -87,7 +87,7 @@ body{
 }
 
 /* ===================== MEDIA QUERY  1601px  =================================      */
-@media (min-width>=1601){
+@media (min-width=1601){
 
 *{
     margin: 0;
