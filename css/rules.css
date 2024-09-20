@@ -16,7 +16,7 @@ body{
 }
 
 /* ===================== MEDIA QUERY  400px - 800px  =================================      */
-@media  screen and (min-width:400px) and ( max-width: 800px){
+@media  screen and (min-width:400px) and (max-width:800px){
 
 *{
     margin: 0;
@@ -36,15 +36,12 @@ body{
     height: 100%;
     background-color: black;
 }
-
 }
 
 
 /* ===================== MEDIA QUERY  801px - 1200px  =================================      */
 
-@media screen and (min-width:801px)and ( max-width: 1200px){
-
-
+@media screen and (min-width:801px)and (max-width:1200px){
 *{
     margin: 0;
     padding: 0;
@@ -67,7 +64,7 @@ body{
 }
 
 /* ===================== MEDIA QUERY  1201px - 1600px  =================================      */
-@media screen and (min-width:1201px)and ( max-width: 1600px){
+@media screen and (min-width:1201px) and (max-width:1600px){
 
 *{
     margin: 0;
