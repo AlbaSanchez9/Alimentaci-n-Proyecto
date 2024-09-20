@@ -2,6 +2,7 @@
 header
 {
     background-color: #292524;
-    height: 10%;
-    width: 100vh;
+    height: 100px;
+    width: 400px;
+    display: flex;
 }
