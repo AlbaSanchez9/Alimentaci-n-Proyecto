@@ -12,3 +12,8 @@ header img
     height: 20px;
     float: right;
 }
+.menu 
+{
+    text-decoration: none;
+    list-style: none;
+}
