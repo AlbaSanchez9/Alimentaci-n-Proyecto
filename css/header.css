@@ -1,6 +1,5 @@
 /* Default ----   < 400px */
-header
-{
+header{
     background-color: #292524;
     height: 100px;
     width: 100%;
@@ -8,13 +7,19 @@ header
     justify-content: space-between; 
     align-items: center
 }
-header img
-{
+header img{
     width: 20px;
     height: 20px;
 }
-.menu 
+
+.menu {
+    display: flex;  
+    list-style: none;  
+    margin: 0;  
+    padding: 0; 
+}
+
+.menu li
 {
-    text-decoration: none;
-    list-style: none;
+    float:left;
 }
