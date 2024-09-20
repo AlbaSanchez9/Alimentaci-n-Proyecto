@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 html{
-    font-family: Calibri;
+    font-family: 'Calibri';
     font-size: 6pt;
     color: red;
 }
@@ -27,7 +27,7 @@ body{
 html{
     font-size: 8pt;
     color: blue;
-    font-family: Cambria;
+    font-family: 'Cambria';
 }
 
 body{
