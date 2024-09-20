@@ -1,3 +1,26 @@
+/* ===================== MEDIA QUERY  400px - 800px  =================================      */
+@media screen and (min-width:400px) and (max-width:800px){
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 8pt;
+    color: blue;
+    font-family: 'Cambria';
+}
+
+body{
+    /* background: [imagen]; */
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+}
+
 /* ===================== MEDIA QUERY  801px - 1200px  =================================      */
 
 @media (min-width:801px) and (max-width:1200px){
@@ -21,8 +44,10 @@ body{
 }
     
 }
+
+
 /* ===================== MEDIA QUERY  1201px - 1600px  =================================      */
-@media screen and (min-width:1201px) and (max-width:1600px){
+@media screen and (min-width:1201px){
 
 *{
     margin: 0;
@@ -44,6 +69,7 @@ body{
 }
     
 }
+
 /* ===================== MEDIA QUERY  1601px  =================================      */
 @media screen and (min-width:1601px){
 
@@ -71,9 +97,6 @@ body{
 
 
 
-
-
-
 /* Default ----   < 400px */
 *{
     margin: 0;
@@ -90,27 +113,3 @@ body{
     width: 100vw;
     height: 100vh;
 }
-
-/* ===================== MEDIA QUERY  400px - 800px  =================================      */
-@media screen and (min-width:400px) and (max-width:800px){
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-size: 8pt;
-    color: blue;
-    font-family: 'Cambria';
-}
-
-body{
-    /* background: [imagen]; */
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-}
-}
-
