@@ -43,7 +43,7 @@ body{
 
 /* ===================== MEDIA QUERY  801px - 1200px  =================================      */
 
-@media (min-width:801px) and (max-width:1200px){
+@media (min-width:801px){
 *{
     margin: 0;
     padding: 0;
