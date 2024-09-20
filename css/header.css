@@ -3,8 +3,10 @@ header
 {
     background-color: #292524;
     height: 100px;
-    width: 400px;
+    width: 100%;
     display: flex;
+    justify-content: space-between; 
+    align-items: center
 }
 header img
 {
