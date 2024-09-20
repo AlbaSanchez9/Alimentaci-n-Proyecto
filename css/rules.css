@@ -19,7 +19,7 @@ body{
 
 
 /* ===================== MEDIA QUERY  400px - 800px  =================================      */
-@media screen and (min-width:400px){
+@media (min-width:400px){
 
 *{
     margin: 0;
@@ -67,7 +67,7 @@ body{
 
 
 /* ===================== MEDIA QUERY  1201px - 1600px  =================================      */
-@media screen and (min-width:1201px){
+@media (min-width:1201px){
 
 *{
     margin: 0;
