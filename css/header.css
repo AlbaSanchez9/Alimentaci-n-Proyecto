@@ -6,11 +6,12 @@ header{
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    padding-left: 15px;
 }
 header img{
     width: 50px;
     height: 50px;
-    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .menu {
@@ -22,7 +23,7 @@ header img{
 
 .menu li{
     display: inline;
-    padding: 15px;
+
 }
 
 .menu a {
