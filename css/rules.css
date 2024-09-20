@@ -1,3 +1,23 @@
+
+/* Default ----   < 400px */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Calibri';
+    font-size: 6pt;
+    color: red;
+}
+body{
+    /* background: [imagen]; */
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
 /* ===================== MEDIA QUERY  400px - 800px  =================================      */
 @media screen and (min-width:400px) and (max-width:800px){
 
@@ -92,24 +112,4 @@ body{
     background-color: lightblue;
 }
     
-}
-
-
-
-
-/* Default ----   < 400px */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html{
-    font-family: 'Calibri';
-    font-size: 6pt;
-    color: red;
-}
-body{
-    /* background: [imagen]; */
-    width: 100vw;
-    height: 100vh;
 }
