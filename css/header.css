@@ -22,7 +22,7 @@ header img{
 
 .menu li{
     display: inline;
-    padding: 20px;
+    padding: 0 15px;
 }
 
 .menu a {
