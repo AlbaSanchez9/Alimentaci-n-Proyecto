@@ -16,7 +16,7 @@ body{
 }
 
 /* ===================== MEDIA QUERY  400px - 800px  =================================      */
-@media screen and (min-width:400px)and (max-width:800px){
+@media screen and (min-width:400px) and (max-width:800px){
 
 *{
     margin: 0;
@@ -41,7 +41,7 @@ body{
 
 /* ===================== MEDIA QUERY  801px - 1200px  =================================      */
 
-@media screen and (min-width:801px)and (max-width:1200px){
+@media screen and (min-width:801px) and (max-width:1200px){
 *{
     margin: 0;
     padding: 0;
