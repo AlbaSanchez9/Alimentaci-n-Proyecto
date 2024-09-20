@@ -67,7 +67,7 @@ body{
 }
 
 /* ===================== MEDIA QUERY  1201px - 1600px  =================================      */
-@media screen and (min-width:1201px)and ( max-width: 1200px){
+@media screen and (min-width:1201px)and ( max-width: 1600px){
 
 *{
     margin: 0;
