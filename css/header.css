@@ -1,18 +1,20 @@
 /* Default ----   < 400px */
 header{
     background-color: #292524;
-    height: 100px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 header img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
 }
+
 
 .menu {
     display: flex;  
@@ -35,6 +37,19 @@ header img{
 /* ===================== MEDIA QUERY  400px - 800px  =================================      */
 @media (min-width:400px)
 {
+
+    header {
+        height: 80px; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header img {
+        width: 40px;
+        height: 40px;
+    }
+    
+
     .menu a {
         color: blue; 
         font-size: 8pt; 
@@ -45,6 +60,17 @@ header img{
 /* ===================== MEDIA QUERY  801px - 1200px  =================================      */
 
 @media (min-width:801px){
+
+    header {
+        height: 100px; 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header img {
+        width: 50px;
+        height: 50px;
+    }
 
     .menu a {
         color: green; 
@@ -58,6 +84,17 @@ header img{
 
 @media (min-width:1201px){
 
+    header {
+        height: 120px; 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header img {
+        width: 60px;
+        height: 60px;
+    }
+
     .menu a {
         color: yellow; 
         font-size: 12pt; 
@@ -67,6 +104,17 @@ header img{
 
 /* ===================== MEDIA QUERY  1601px  =================================      */
 @media screen and (min-width:1601px){
+
+    header {
+        height: 140px; 
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    header img {
+        width: 70px;
+        height: 70px;
+    }
 
     .menu a {
         color: orange; 
