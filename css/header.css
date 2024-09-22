@@ -24,7 +24,7 @@ header img{
 
 .menu li{
     display: inline;
-    
+    margin-right: 20px;
 }
 
 .menu a {
