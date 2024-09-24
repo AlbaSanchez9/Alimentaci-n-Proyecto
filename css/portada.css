@@ -53,11 +53,18 @@ a{
   text-decoration: inherit;
 }
 .portada1{
-background: url(../img/alimentacion.jpg);
+  background: url(../img/alimentacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 .portada2{
-background: url(../img/dieta.jpg);
+  background: url(../img/dieta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .portada3{
-background: url(../img/livewell.jpeg);
+  background: url(../img/livewell.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
