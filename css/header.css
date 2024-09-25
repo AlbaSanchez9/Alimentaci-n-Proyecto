@@ -25,18 +25,17 @@ header img{
 }
 
 .menu {
-    display: flex;  
+    display: flex; 
     list-style: none;  
     margin: 0;  
     padding: 0;
     /* gap: 30px; */
-
+    justify-content: center;
     border: 1px solid red;
 }
 
 .menu li{
     display: inline;
-    justify-content: flex-start;
     border: 1px solid red;
 }
 
