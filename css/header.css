@@ -11,6 +11,12 @@ header{
     border: 1px solid red;
 }
 
+.header-content
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
 header img{
     width: 30px;
     height: 30px;
