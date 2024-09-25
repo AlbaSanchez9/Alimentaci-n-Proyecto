@@ -9,6 +9,11 @@ header{
     padding: 8px;
 }
 
+div 
+{
+    display: flex;
+}
+
 header img{
     width: 30px;
     height: 30px;
