@@ -9,8 +9,8 @@ section {
 }
 
 .article1-content {
-    flex: 1 1 800px; /* Permite que los cuadros crezcan y se reduzcan con un tamaño base */
-    max-width: 800px; /* Evita que los cuadros sean más anchos de 600px */
+    flex: 1 1 800px; 
+    max-width: 800px; 
     height: auto;
     padding: 20px;
     background: rgba(41, 37, 36, 0.9);

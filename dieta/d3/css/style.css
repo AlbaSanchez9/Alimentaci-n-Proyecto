@@ -9,8 +9,8 @@ section {
 }
 
 .article1-content {
-    flex: 1 1 600px; /* Permite que los cuadros crezcan y se reduzcan con un tamaño base */
-    max-width: 600px; /* Evita que los cuadros sean más anchos de 600px */
+    flex: 1 1 600px; 
+    max-width: 600px; 
     height: 250px;
     padding: 20px;
     background: rgba(41, 37, 36, 0.9);
@@ -90,7 +90,7 @@ main h1
 
 @media (min-width: 1601px) {
     .article1-content {
-        flex: 1 1 42%; /* Cambia el tamaño base de los cuadros a 30% en pantallas grandes */
-        max-width: 42%; /* Asegura que el ancho máximo sea 30% */
+        flex: 1 1 42%; 
+        max-width: 42%; 
     }
 }
