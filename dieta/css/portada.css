@@ -9,19 +9,25 @@ main {
 
 .content-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
     /* border: 1px solid red; */
 }
 
 .article1-content img {
-    width: 50%;
+    min-width: 40%;
+    max-width: 100%;
     height: auto; 
     border-radius: 5px;
     /* border: 1px solid red; */
 } 
 
 .text-content {
-    width: 60%; 
+    flex: 1 1 40%;
+    max-width: 100%;
+    min-width: 200px;
     margin-right: 20px; 
     /* border: 1px solid red;  */
     
