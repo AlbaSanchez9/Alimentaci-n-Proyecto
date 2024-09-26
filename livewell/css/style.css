@@ -5,16 +5,6 @@
     background-color: rgba(0, 0, 0, 0.6);
 
  }
-h1 {
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 2em;
-}
-
-p{
-    font-size: 2em;
-}
 
 .sec1{
     display: flex;
