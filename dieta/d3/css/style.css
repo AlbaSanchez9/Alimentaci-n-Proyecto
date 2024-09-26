@@ -1,0 +1,96 @@
+
+section {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    flex-wrap: wrap;     
+    gap: 20px;               
+    height: 100vh;           
+}
+
+.article1-content {
+    flex: 1 1 600px; /* Permite que los cuadros crezcan y se reduzcan con un tamaño base */
+    max-width: 600px; /* Evita que los cuadros sean más anchos de 600px */
+    height: 250px;
+    padding: 20px;
+    background: rgba(41, 37, 36, 0.9);
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;            
+    flex-direction: column;   
+    justify-content: space-between; 
+    align-items: center;       
+    text-align: center;            
+    /* border: 1px solid red; */
+
+}
+
+
+.content-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;       
+    height: 100%;              
+}
+
+.article1-content img {
+    width: 30%;
+    height: auto; 
+    border-radius: 5px;
+    margin: 20px;
+    /* border: 1px solid red; */
+} 
+
+.text-content {
+    width: 60%; 
+    margin-right: 20px; 
+    /* border: 1px solid red;  */
+    
+}
+
+.text-content p{
+    margin-bottom: 15px;
+}
+
+main h1 
+{
+    text-align: center;
+    
+}
+
+.title-art--content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 10px; 
+    background: rgba(41, 37, 36, 0.9);
+}
+
+.title-art--content a
+{
+    display: inline-block;
+    width: 40px;
+}
+
+.title-art--content a img {
+    width: 100%; 
+    height: auto;
+    cursor: pointer;
+}
+
+.article1-content h1 {
+    margin: 0; 
+    text-align: center; 
+    flex-grow: 1;
+}
+
+
+@media (min-width: 1601px) {
+    .article1-content {
+        flex: 1 1 42%; /* Cambia el tamaño base de los cuadros a 30% en pantallas grandes */
+        max-width: 42%; /* Asegura que el ancho máximo sea 30% */
+    }
+}
