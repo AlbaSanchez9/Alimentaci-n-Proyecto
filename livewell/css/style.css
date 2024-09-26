@@ -1,18 +1,19 @@
-/* body, html{
-    box-sizing: border-box;
-} */
+ body{
+    width: 100%;
+ }
+ main{
+    background-color: rgba(0, 0, 0, 0.6);
+
+ }
 h1 {
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
     font-size: 2em;
-    border: 1px solid red;
 }
 
 p{
     font-size: 2em;
-    border: 1px solid red;
-
 }
 
 .sec1{
@@ -25,10 +26,25 @@ p{
 .sec2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
 
+
+}
+.sec3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.sec3 img{
+    width: 10vw;
+    gap: 5%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 article{
     width: 100%;
@@ -36,11 +52,16 @@ article{
 
 .texto{
     text-align: justify;
+    margin: 30px;
 }
 section img {
-    width: 80vw;
+    width: 80%;
 }
-@media (min-width:800px){
+.imagenRotada{
+    justify-content: right;
+    transform: scaleX(-1);
+}
+@media (min-width:1200px){
     .sec1{
         width: 100%;
         display: flex;
@@ -48,8 +69,7 @@ section img {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        border: 1px solid red;
-
+        gap: 6%;
     }
     .sec2{
         width: 100%;
@@ -58,19 +78,16 @@ section img {
         justify-content: center;
         flex-direction: row-reverse;
         align-items: center;
-        border: 1px solid red;
-
+        gap: 6%;
     
     }
+    
     article{
         width: 50%;
-        border: 1px solid red;
     }
     section img {
         width: 40%;
-    }
-}
-@media (min-width:400px){
 
+    }
 }
     
