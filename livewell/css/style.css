@@ -12,7 +12,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    margin: 100px;
 }
 .sec2{
     display: flex;
