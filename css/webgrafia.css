@@ -1,0 +1,24 @@
+main{
+  width: 85%;
+  margin: 20px auto;
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+}
+section{
+  margin: 2em;
+}
+article{
+  /* background: #dc2626;  */
+  border: 3px solid darkslateblue;
+  background: rgba(0,0,0,0.4);
+  border-radius: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: fit-content;
+}
+main a{
+  color: inherit;
+}
+main h1{
+  text-align: center;
+}
