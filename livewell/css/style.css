@@ -6,7 +6,9 @@
     background-color: rgba(0, 0, 0, 0.6);
     transition: 0.5s;
  }
-
+ a{
+    color: inherit;
+}
 .sec1{
     display: flex;
     justify-content: space-around;
