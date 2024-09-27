@@ -18,3 +18,18 @@ footer img{
   margin-right: 30px;
   transform: rotate(60deg);
 }
+main{
+  background: rgba(0,0,0,0.4);
+  width: 90%;
+  margin: 0 auto;
+  display:grid;
+  grid-template-rows: 1fr;
+  grid-gap: 20px
+}
+article{
+  padding: 10px;
+}
+p{
+  margin-bottom: 10px;
+  text-transform: Capitalize;
+}
