@@ -596,6 +596,7 @@ article{
 }
 main a{
   color: inherit;
+  text-wrap: wrap;
 }
 main h1{
   text-align: center;
